@@ -4,8 +4,9 @@ body {
   background-color: #ffffff;
 }
 :root {
-  color: #434455;
-  background-color: #ffffff;
+  --text-color-wihte: #ffffff;
+  --color: #434455;
+  --background-color: #ffffff;
 }
 
 /* -----------header---------- */
@@ -42,10 +43,7 @@ body {
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-.nav-bar:hover {
-  color: #404bbf;
-}
-
+.nav-bar:hover,
 .nav-bar:focus {
   color: #404bbf;
 }
@@ -61,9 +59,7 @@ body {
   letter-spacing: 0.02em;
   color: #434455;
 }
-.contact:hover {
-  color: #404bbf;
-}
+.contact:hover,
 .contact:focus {
   color: #404bbf;
 }
@@ -85,13 +81,12 @@ body {
   line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
-  color: #ffffff;
+  color: var(--text-color-wihte);
 }
 .main-page-button {
   font-family: "Roboto", sans-serif;
   background: #4d5ae5;
-  color: #ffffff;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  color: var(--text-color-wihte);
   border-radius: 4px;
   border: none;
   font-weight: 500;
@@ -105,13 +100,10 @@ body {
   align-items: flex-start;
 }
 
-.main-page-button:hover {
-  background: #404bbf;
-  color: #ffffff;
-}
+.main-page-button:hover,
 .main-page-button:focus {
   background: #404bbf;
-  color: #ffffff;
+  color: var(--text-color-wihte);
 }
 
 /* -----------section 2---------- */
@@ -226,12 +218,9 @@ body {
   cursor: pointer;
 }
 
-.button-portfolio:hover {
-  color: #ffffff;
-  background-color: #404bbf;
-}
+.button-portfolio:hover,
 .button-portfolio:focus {
-  color: #ffffff;
+  color: var(--text-color-wihte);
   background-color: #404bbf;
 }
 
