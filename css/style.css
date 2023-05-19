@@ -3,11 +3,11 @@ body {
   color: #434455;
   background-color: #ffffff;
 }
-:root {
+/* :root {
   --text-color-wihte: #ffffff;
   --color: #434455;
   --background-color: #ffffff;
-}
+} */
 
 /* -----------header---------- */
 
@@ -117,12 +117,12 @@ img {
   line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
-  color: var(--text-color-wihte);
+  color: #ffffff;
 }
 .main-page-button {
   font-family: "Roboto", sans-serif;
   background-color: #4d5ae5;
-  color: var(--text-color-wihte);
+  color: #ffffff;
   border-radius: 4px;
   display: block;
   border: none;
@@ -141,7 +141,7 @@ img {
 .main-page-button:hover,
 .main-page-button:focus {
   background: #404bbf;
-  color: var(--text-color-wihte);
+  color: #ffffff;
 }
 
 /* -----------section 2---------- */
@@ -203,6 +203,7 @@ img {
 
 .our-team {
   background-color: #f4f4fd;
+  padding: 120px 0;
 }
 .team {
   background-color: #ffffff;
@@ -311,7 +312,7 @@ img {
 
 .button-portfolio:hover,
 .button-portfolio:focus {
-  color: var(--text-color-wihte);
+  color: #ffffff;
   background-color: #404bbf;
   border: 1px solid transparent;
 }
