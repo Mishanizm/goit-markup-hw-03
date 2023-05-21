@@ -1,15 +1,14 @@
+p,
+h1,
+h2,
+h3 {
+  margin: 0;
+}
 body {
   font-family: "Roboto", sans-serif;
   color: #434455;
   background-color: #ffffff;
 }
-/* :root {
-  --text-color-wihte: #ffffff;
-  --color: #434455;
-  --background-color: #ffffff;
-} */
-
-/* -----------header---------- */
 
 .header {
   border-bottom: 1px solid #e7e9fc;
@@ -48,6 +47,8 @@ body {
 
 .list {
   list-style: none;
+  padding: 0;
+  margin: 0;
 }
 .nav-menu {
   display: flex;
@@ -68,6 +69,7 @@ body {
 .menu {
   display: flex;
   gap: 40px;
+  /* margin: 0 332px 0 0; */
 }
 
 .address {
@@ -165,7 +167,7 @@ img {
 }
 
 .strategy {
-  flex-basis: calc((100%-3 * 24px) / 4);
+  width: calc((100%-72px) / 4);
 }
 
 .solutions-text {
@@ -327,7 +329,7 @@ img {
   row-gap: 48px;
 }
 .servis-portfolio {
-  width: calc((100%-48px) / 3);
+  /* width: calc((100%-48px) / 3); */
 }
 .tools {
   padding: 32px 16px;
