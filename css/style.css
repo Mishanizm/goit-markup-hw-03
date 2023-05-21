@@ -55,6 +55,7 @@ body {
   align-items: center;
 }
 .nav-bar {
+  display: block;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -69,19 +70,21 @@ body {
 .menu {
   display: flex;
   gap: 40px;
-  /* margin: 0 332px 0 0; */
 }
 
 .address {
   font-style: normal;
   list-style: none;
+  margin-left: auto;
 }
 
 .contact {
+  display: block;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  padding: 24px 0;
 }
 .contact:hover,
 .contact:focus {
