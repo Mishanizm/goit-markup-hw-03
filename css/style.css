@@ -129,7 +129,9 @@ margin-right: auto;
   text-align: center;
   letter-spacing: 0.02em;
   color: #ffffff;
-  padding-bottom: 48px;
+  margin-bottom: 48px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .main-page-button {
   font-family: "Roboto", sans-serif;
@@ -148,6 +150,8 @@ margin-right: auto;
   cursor: pointer;
   align-items: center;
   min-width: 169px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .main-page-button:hover,
